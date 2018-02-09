@@ -1,0 +1,88 @@
+﻿La génération a démarré 18/11/2014 10:45:47.
+     1>Projet "C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\src\client\Babel.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>CustomBuild:
+         Moc'ing HostedCall.h...
+         Moc'ing RemoteCall.h...
+         Moc'ing babelwindow.h...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_babelwindow.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_babelwindow.cpp, Release\moc_babelwindow.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_ChatDialog.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_ChatDialog.cpp, Release\moc_ChatDialog.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_ClientWorker.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_ClientWorker.cpp, Release\moc_ClientWorker.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_HostedCall.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_HostedCall.cpp, Release\moc_HostedCall.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_RemoteCall.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_RemoteCall.cpp, Release\moc_RemoteCall.cpp.
+       ClCompile:
+         Z:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I..\common /I..\abstraction /Idata /Icall /Isound /I..\..\lib\portaudio\include /I"..\..\lib\opus-1.1\include" /IC:\Qt\5.3.2\qtbase\include /IC:\Qt\5.3.2\qtbase\include\QtWidgets /IC:\Qt\5.3.2\qtbase\include\QtNetwork /IC:\Qt\5.3.2\qtbase\include\QtGui /IC:\Qt\5.3.2\qtbase\include\QtANGLE /IC:\Qt\5.3.2\qtbase\include\QtCore /Irelease /I. /I"C:\Qt\5.3.2\qtbase\mkspecs\win32-msvc2013" /I.\GeneratedFiles /nologo /W3 /WX- /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D _CLIENT /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_NETWORK_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_OPENGL_ES_2 /D QT_OPENGL_ES_2_ANGLE /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -Zm200 -w34100 -w34189 data\Callee.cpp ChatDialog.cpp data\ClientData.cpp ClientWorker.cpp DisplayQt.cpp data\Friend.cpp call\HostedCall.cpp ..\abstraction\LinuxTimer.cpp Release\moc_babelwindow.cpp Release\moc_ChatDialog.cpp Release\moc_ClientWorker.cpp Release\moc_HostedCall.cpp Release\moc_RemoteCall.cpp sound\OpusCodecManager.cpp ..\common\PacketHelper.cpp sound\PortAudioSoundManager.cpp ..\abstraction\QTMutex.cpp call\RemoteCall.cpp sound\SoundBuffer.cpp sound\SoundContainer.cpp sound\SoundMixer.cpp data\User.cpp ..\abstraction\WindowsTimer.cpp babelwindow.cpp main.cpp
+         Callee.cpp
+         ChatDialog.cpp
+         ClientData.cpp
+         ClientWorker.cpp
+         DisplayQt.cpp
+         Friend.cpp
+         HostedCall.cpp
+         LinuxTimer.cpp
+         moc_babelwindow.cpp
+         moc_ChatDialog.cpp
+         moc_ClientWorker.cpp
+         moc_HostedCall.cpp
+         moc_RemoteCall.cpp
+         OpusCodecManager.cpp
+         PacketHelper.cpp
+         PortAudioSoundManager.cpp
+         QTMutex.cpp
+         RemoteCall.cpp
+         SoundBuffer.cpp
+         SoundContainer.cpp
+         Génération de code en cours...
+         Compilation en cours...
+         SoundMixer.cpp
+         User.cpp
+         WindowsTimer.cpp
+         babelwindow.cpp
+         main.cpp
+         Génération de code en cours...
+         Z:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I..\common /I..\abstraction /Idata /Icall /Isound /I..\..\lib\portaudio\include /I"..\..\lib\opus-1.1\include" /IC:\Qt\5.3.2\qtbase\include /IC:\Qt\5.3.2\qtbase\include\QtWidgets /IC:\Qt\5.3.2\qtbase\include\QtNetwork /IC:\Qt\5.3.2\qtbase\include\QtGui /IC:\Qt\5.3.2\qtbase\include\QtANGLE /IC:\Qt\5.3.2\qtbase\include\QtCore /Irelease /I. /I"C:\Qt\5.3.2\qtbase\mkspecs\win32-msvc2013" /I.\GeneratedFiles /nologo /W3 /WX- /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D _CLIENT /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_NETWORK_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_OPENGL_ES_2 /D QT_OPENGL_ES_2_ANGLE /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -Zm200 -w34100 -w34189 GeneratedFiles\qrc_ressourcesClient.cpp
+         qrc_ressourcesClient.cpp
+       Link:
+         Z:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\\build\Win32\Release\\Babel.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Qt\5.3.2\qtbase\lib /LIBPATH:C:\Qt\5.3.2\qtbase\lib /LIBPATH:C:\Qt\5.3.2\qtbase\lib C:\Qt\5.3.2\qtbase\lib\qtmain.lib C:\Qt\5.3.2\qtbase\lib\Qt5Core.lib ../../build/Win32/Release/portaudio.lib ../../build/Win32/Release/celt.lib ../../build/Win32/Release/opus.lib ../../build/Win32/Release/silk_common.lib ../../build/Win32/Release/silk_fixed.lib ../../build/Win32/Release/silk_float.lib "C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib\ksguid.lib" winspool.lib shlwapi.lib rpcrt4.lib libEGLd.lib libGLESv2d.lib kernel32.lib shell32.lib uuid.lib comdlg32.lib oleaut32.lib imm32.lib winmm.lib ws2_32.lib ole32.lib advapi32.lib d3d9.lib dxguid.lib C:\Qt\5.3.2\qtbase\lib\Qt5Widgets.lib C:\Qt\5.3.2\qtbase\lib\Qt5Network.lib C:\Qt\5.3.2\qtbase\lib\Qt5Gui.lib libEGL.lib libGLESv2.lib gdi32.lib user32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\\build\Win32\Release\Babel.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" Win32\Release\Callee.obj
+         Win32\Release\ChatDialog.obj
+         Win32\Release\ClientData.obj
+         Win32\Release\ClientWorker.obj
+         Win32\Release\DisplayQt.obj
+         Win32\Release\Friend.obj
+         Win32\Release\HostedCall.obj
+         Win32\Release\LinuxTimer.obj
+         Win32\Release\qrc_ressourcesClient.obj
+         Win32\Release\moc_babelwindow.obj
+         Win32\Release\moc_ChatDialog.obj
+         Win32\Release\moc_ClientWorker.obj
+         Win32\Release\moc_HostedCall.obj
+         Win32\Release\moc_RemoteCall.obj
+         Win32\Release\OpusCodecManager.obj
+         Win32\Release\PacketHelper.obj
+         Win32\Release\PortAudioSoundManager.obj
+         Win32\Release\QTMutex.obj
+         Win32\Release\RemoteCall.obj
+         Win32\Release\SoundBuffer.obj
+         Win32\Release\SoundContainer.obj
+         Win32\Release\SoundMixer.obj
+         Win32\Release\User.obj
+         Win32\Release\WindowsTimer.obj
+         Win32\Release\babelwindow.obj
+         Win32\Release\main.obj
+         opus.lib(opus_encoder.obj) : .netmodule ou module MSIL compilé avec /GL trouvé ; redémarrage de l'édition de liens avec /LTCG ; ajoutez /LTCG à la ligne de commande de l'édition de liens pour améliorer les performances de l'Éditeur de liens
+            CrÚation de la bibliothÞque C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\\build\Win32\Release\\Babel.lib et de l'objet C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\\build\Win32\Release\\Babel.exp
+     1>libGLESv2.lib(Shader.obj) : error LNK2001: symbole externe non rÚsolu _ShInitialize
+     1>libGLESv2.lib(Shader.obj) : error LNK2001: symbole externe non rÚsolu _ShFinalize
+     1>libGLESv2.lib(Shader.obj) : error LNK2001: symbole externe non rÚsolu _ShInitBuiltInResources
+     1>libGLESv2.lib(Shader.obj) : error LNK2001: symbole externe non rÚsolu _ShConstructCompiler
+     1>libGLESv2.lib(Shader.obj) : error LNK2001: symbole externe non rÚsolu _ShDestruct
+     1>libGLESv2.lib(Shader.obj) : error LNK2001: symbole externe non rÚsolu _ShCompile
+     1>libGLESv2.lib(Shader.obj) : error LNK2001: symbole externe non rÚsolu _ShGetInfo
+     1>libGLESv2.lib(Shader.obj) : error LNK2001: symbole externe non rÚsolu _ShGetInfoLog
+     1>libGLESv2.lib(Shader.obj) : error LNK2001: symbole externe non rÚsolu _ShGetObjectCode
+     1>libGLESv2.lib(Shader.obj) : error LNK2001: symbole externe non rÚsolu _ShGetInfoPointer
+     1>C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\\build\Win32\Release\\Babel.exe : fatal error LNK1120: 10 externes non rÚsolus
+     1>Génération du projet "C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\src\client\Babel.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:25.51

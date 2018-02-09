@@ -1,0 +1,51 @@
+﻿La génération a démarré 17/11/2014 22:19:44.
+     1>Projet "C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\src\server\server.vcxproj" sur le nœud 8 (Build cible(s)).
+     1>ClCompile:
+         Z:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\abstraction\LinuxSelect.cpp ..\abstraction\LinuxTCPRemoteClient.cpp ..\abstraction\LinuxTCPServer.cpp ..\abstraction\LinuxTCPSocket.cpp ..\abstraction\myTCPRemoteClient.cpp ..\abstraction\WindowsSelect.cpp ..\abstraction\WindowsTCPRemoteClient.cpp ..\abstraction\WindowsTCPServer.cpp ..\abstraction\WindowsTCPSocket.cpp ..\common\Debug.cpp ..\common\FileSerializer.cpp ..\common\PacketHelper.cpp ..\common\ReceiveException.cpp ..\common\RequestMaker.cpp ..\common\StandardInput.cpp BabelServer.cpp Database.cpp main.cpp UserData.cpp
+         LinuxSelect.cpp
+         LinuxTCPRemoteClient.cpp
+         LinuxTCPServer.cpp
+         LinuxTCPSocket.cpp
+         myTCPRemoteClient.cpp
+         WindowsSelect.cpp
+         WindowsTCPRemoteClient.cpp
+         WindowsTCPServer.cpp
+         WindowsTCPSocket.cpp
+         Debug.cpp
+         FileSerializer.cpp
+         PacketHelper.cpp
+         ReceiveException.cpp
+         RequestMaker.cpp
+         StandardInput.cpp
+         BabelServer.cpp
+         Database.cpp
+         main.cpp
+         UserData.cpp
+       Link:
+         Z:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\\build\Win32\Release\Server.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\\build\Win32\Release\Server.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\\build\Win32\Release\Server.lib" /MACHINE:X86 /SAFESEH Release\LinuxSelect.obj
+         Release\LinuxTCPRemoteClient.obj
+         Release\LinuxTCPServer.obj
+         Release\LinuxTCPSocket.obj
+         Release\myTCPRemoteClient.obj
+         Release\WindowsSelect.obj
+         Release\WindowsTCPRemoteClient.obj
+         Release\WindowsTCPServer.obj
+         Release\WindowsTCPSocket.obj
+         Release\Debug.obj
+         Release\FileSerializer.obj
+         Release\PacketHelper.obj
+         Release\ReceiveException.obj
+         Release\RequestMaker.obj
+         Release\StandardInput.obj
+         Release\BabelServer.obj
+         Release\Database.obj
+         Release\main.obj
+         Release\UserData.obj
+         Génération de code en cours
+         Fin de la génération du code
+         server.vcxproj -> C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\\build\Win32\Release\Server.exe
+     1>Génération du projet "C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\src\server\server.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:13.62

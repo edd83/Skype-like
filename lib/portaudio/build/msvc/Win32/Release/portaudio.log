@@ -1,0 +1,74 @@
+﻿La génération a démarré 17/11/2014 22:19:44.
+     1>Projet "C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\lib\portaudio\build\msvc\portaudio.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         Z:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src\common /I..\..\include /I.\ /I..\..\src\os\win /Zi /nologo /W3 /WX- /O2 /Ob1 /Oi /Ot /Oy /D WIN32 /D NDEBUG /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D PAWIN_USE_WDMKS_DEVICE_INFO /D PA_USE_ASIO=1 /D PA_USE_DS=1 /D PA_USE_WMME=1 /D PA_USE_WASAPI=1 /D PA_USE_WDMKS=1 /D _VC80_UPGRADE=0x0600 /GF /Gm- /EHsc /MD /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"Win32\Release\\" /Fd"Win32\Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\common\pa_allocation.c ..\..\src\common\pa_converters.c ..\..\src\common\pa_cpuload.c ..\..\src\common\pa_debugprint.c ..\..\src\common\pa_dither.c ..\..\src\common\pa_front.c ..\..\src\hostapi\skeleton\pa_hostapi_skeleton.c ..\..\src\common\pa_process.c ..\..\src\common\pa_ringbuffer.c ..\..\src\common\pa_stream.c ..\..\src\common\pa_trace.c ..\..\src\hostapi\dsound\pa_win_ds.c ..\..\src\hostapi\dsound\pa_win_ds_dynlink.c ..\..\src\hostapi\wmme\pa_win_wmme.c ..\..\src\hostapi\wasapi\pa_win_wasapi.c ..\..\src\hostapi\wdmks\pa_win_wdmks.c ..\..\src\os\win\pa_win_coinitialize.c ..\..\src\os\win\pa_win_hostapis.c ..\..\src\os\win\pa_win_util.c ..\..\src\os\win\pa_win_waveformat.c ..\..\src\os\win\pa_win_wdmks_utils.c ..\..\src\os\win\pa_x86_plain_converters.c
+         pa_allocation.c
+         pa_converters.c
+         pa_cpuload.c
+         pa_debugprint.c
+         pa_dither.c
+         pa_front.c
+         pa_hostapi_skeleton.c
+         pa_process.c
+         pa_ringbuffer.c
+         pa_stream.c
+         pa_trace.c
+         pa_win_ds.c
+     1>..\..\src\hostapi\dsound\pa_win_ds.c(327): warning C4996: 'GetVersionExA': a été déclaré déconseillé
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : voir la déclaration de 'GetVersionExA'
+         pa_win_ds_dynlink.c
+         pa_win_wmme.c
+     1>..\..\src\hostapi\wmme\pa_win_wmme.c(906): warning C4996: 'GetVersionExA': a été déclaré déconseillé
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : voir la déclaration de 'GetVersionExA'
+         pa_win_wasapi.c
+         pa_win_wdmks.c
+     1>..\..\src\hostapi\wdmks\pa_win_wdmks.c(638): warning C4996: 'GetVersionExA': a été déclaré déconseillé
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : voir la déclaration de 'GetVersionExA'
+         pa_win_coinitialize.c
+         pa_win_hostapis.c
+         pa_win_util.c
+         pa_win_waveformat.c
+         Génération de code en cours...
+         Compilation en cours...
+         pa_win_wdmks_utils.c
+         pa_x86_plain_converters.c
+         Génération de code en cours...
+         Z:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src\hostapi\asio\ASIOSDK\host /I..\..\src\hostapi\asio\ASIOSDK\host\pc /I..\..\src\hostapi\asio\ASIOSDK\common /I..\..\src\common /I..\..\include /I.\ /I..\..\src\os\win /Zi /nologo /W3 /WX- /O2 /Ob1 /Oi /Ot /Oy /D WIN32 /D NDEBUG /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D PAWIN_USE_WDMKS_DEVICE_INFO /D PA_USE_ASIO=1 /D PA_USE_DS=1 /D PA_USE_WMME=1 /D PA_USE_WASAPI=1 /D PA_USE_WDMKS=1 /D _VC80_UPGRADE=0x0600 /GF /Gm- /EHsc /MD /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"Win32\Release\\" /Fd"Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\hostapi\asio\pa_asio.cpp ..\..\src\hostapi\asio\ASIOSDK\common\asio.cpp ..\..\src\hostapi\asio\ASIOSDK\host\asiodrivers.cpp ..\..\src\hostapi\asio\ASIOSDK\host\pc\asiolist.cpp
+         pa_asio.cpp
+         asio.cpp
+         asiodrivers.cpp
+         asiolist.cpp
+         Génération de code en cours...
+       Lib:
+         Z:\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\\build\Win32\Release\portaudio.lib" /NOLOGO Win32\Release\pa_allocation.obj
+         Win32\Release\pa_converters.obj
+         Win32\Release\pa_cpuload.obj
+         Win32\Release\pa_debugprint.obj
+         Win32\Release\pa_dither.obj
+         Win32\Release\pa_front.obj
+         Win32\Release\pa_hostapi_skeleton.obj
+         Win32\Release\pa_process.obj
+         Win32\Release\pa_ringbuffer.obj
+         Win32\Release\pa_stream.obj
+         Win32\Release\pa_trace.obj
+         Win32\Release\pa_asio.obj
+         Win32\Release\asio.obj
+         Win32\Release\asiodrivers.obj
+         Win32\Release\asiolist.obj
+         Win32\Release\pa_win_ds.obj
+         Win32\Release\pa_win_ds_dynlink.obj
+         Win32\Release\pa_win_wmme.obj
+         Win32\Release\pa_win_wasapi.obj
+         Win32\Release\pa_win_wdmks.obj
+         Win32\Release\pa_win_coinitialize.obj
+         Win32\Release\pa_win_hostapis.obj
+         Win32\Release\pa_win_util.obj
+         Win32\Release\pa_win_waveformat.obj
+         Win32\Release\pa_win_wdmks_utils.obj
+         Win32\Release\pa_x86_plain_converters.obj
+         portaudio.vcxproj -> C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\\build\Win32\Release\portaudio.lib
+     1>Génération du projet "C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\lib\portaudio\build\msvc\portaudio.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:08.55

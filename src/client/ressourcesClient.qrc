@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/call.png</file>
+        <file>images/uncall.png</file>
+        <file>images/add_friend.png</file>
+        <file>images/LogoutButton.png</file>
+        <file>images/chatbox.png</file>
+        <file>images/dark_souls_icon.png</file>
+    </qresource>
+</RCC>

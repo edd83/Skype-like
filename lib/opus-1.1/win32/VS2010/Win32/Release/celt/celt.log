@@ -1,0 +1,14 @@
+﻿La génération a démarré 18/11/2014 10:45:47.
+     1>Projet "C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\lib\opus-1.1\win32\VS2010\celt.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>PreBuildEvent:
+         "C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\lib\opus-1.1\win32\VS2010\..\..\win32\genversion.bat" "C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\lib\opus-1.1\win32\VS2010\..\..\win32\version.h" PACKAGE_VERSION
+         :VCEnd
+         'git' n'est pas reconnu en tant que commande interne
+         ou externe, un programme exécutable ou un fichier de commandes.
+       Lib:
+         celt.vcxproj -> C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\\build\Win32\Release\celt.lib
+     1>Génération du projet "C:\Users\Eddy\Desktop\prieur_s\babel-2017-guedj_m\lib\opus-1.1\win32\VS2010\celt.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.12

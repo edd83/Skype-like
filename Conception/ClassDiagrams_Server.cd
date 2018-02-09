@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PacketHelper">
+    <Position X="39.75" Y="12.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEgAAAAAAAAAAAAAAAAAAAAgEAAAAAgAAAJBAAAAAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\common\PacketHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RequestMaker">
+    <Position X="37" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABCACAAAAAQAAAAAAEAAAAAAAAAAIAAABEQAAAABACA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\common\RequestMaker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IObservable">
+    <Position X="24.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\users\sylvain\source\repos\babel-2017-guedj_m\src\abstraction\iobservable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IReadable">
+    <Position X="19" Y="12" Width="1.5" />
+    <Members>
+      <Method Name="getReadFd" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\abstraction\IReadable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISelect">
+    <Position X="9.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAADgAAgAAAAAAAAgAAAAAAQAAAAAAAQAEA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\abstraction\ISelect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITCPRemoteClient">
+    <Position X="19" Y="14" Width="1.5" />
+    <Members>
+      <Method Name="getReadFd" Hidden="true" />
+      <Method Name="getWriteFd" Hidden="true" />
+      <Method Name="prepareMsg" Hidden="true" />
+      <Method Name="send" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAgAAAQQQABAAAAAAAAACAAAAAIAAAAAAAACAA=</HashCode>
+      <FileName>e:\users\sylvain\source\repos\babel-2017-guedj_m\src\abstraction\itcpremoteclient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITCPServer">
+    <Position X="26.75" Y="12" Width="1.5" />
+    <Members>
+      <Method Name="getReadFd" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAACAgAAAQAAAAAAAIAAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\abstraction\ITCPServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITCPSocket">
+    <Position X="3.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAgAAAAAgIAAAAAAAAAAAAAAAQAgIgAAAAEAAIAAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\abstraction\ITCPSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IWritable">
+    <Position X="15.75" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gEABAAAAAAAAQAABAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\abstraction\IWritable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinuxSelect" Collapsed="true">
+    <Position X="10.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAkAAAAAIBhQAgAAABABAAgAAgEAAYAAAAQAAQAMA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\abstraction\LinuxSelect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinuxTCPRemoteClient">
+    <Position X="15.75" Y="14.75" Width="2" />
+    <Members>
+      <Field Name="_closing" Hidden="true" />
+      <Method Name="getIp" Hidden="true" />
+      <Method Name="getReadFd" Hidden="true" />
+      <Method Name="getWriteFd" Hidden="true" />
+      <Method Name="mustBeClosed" Hidden="true" />
+      <Method Name="prepareClose" Hidden="true" />
+      <Method Name="prepareMsg" Hidden="true" />
+      <Method Name="receiveMsg" Hidden="true" />
+      <Method Name="send" Hidden="true" />
+      <Method Name="somethingToWrite" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gEAAAAIkAAAQQAABAABAAAAAACgAgAAIAAAAAAAICAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\abstraction\LinuxTCPRemoteClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinuxTCPServer">
+    <Position X="28" Y="14.75" Width="1.5" />
+    <Members>
+      <Method Name="acceptClient" Hidden="true" />
+      <Method Name="getReadFd" Hidden="true" />
+      <Method Name="start" Hidden="true" />
+      <Method Name="stop" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEAAAAAAAgAAAAAAAAACAgAAAAAAAAAAAoAAA=</HashCode>
+      <FileName>e:\users\sylvain\source\repos\babel-2017-guedj_m\src\abstraction\linuxtcpserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinuxTCPSocket" Collapsed="true">
+    <Position X="4.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAgAAAAAgIAAAAABAAAAQAAAAQEAIgAAAAEAAIAAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\abstraction\LinuxTCPSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mySelect">
+    <Position X="9.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\abstraction\mySelect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myTCPRemoteClient">
+    <Position X="18.75" Y="17" Width="2" />
+    <InheritanceLine Type="WindowsTCPRemoteClient" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="22.75" Y="17.204" />
+        <Point X="22.75" Y="17.938" />
+        <Point X="20.75" Y="17.938" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAgAAAAAAA=</HashCode>
+      <FileName>e:\users\sylvain\source\repos\babel-2017-guedj_m\src\abstraction\mytcpremoteclient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myTCPServer">
+    <Position X="26.75" Y="17" Width="1.5" />
+    <InheritanceLine Type="WindowsTCPServer" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="16.627" />
+        <Point X="26.25" Y="17.625" />
+        <Point X="26.75" Y="17.625" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\abstraction\myTCPServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myTCPSocket">
+    <Position X="3.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\abstraction\myTCPSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsSelect" Collapsed="true">
+    <Position X="7.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAkAAAAAIhiQAgQAIBABQAgAAgEAAYAAAAQAEQAMI=</HashCode>
+      <FileName>e:\users\sylvain\source\repos\babel-2017-guedj_m\src\abstraction\windowsselect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsTCPRemoteClient">
+    <Position X="21.5" Y="14.75" Width="2.5" />
+    <Members>
+      <Field Name="_closing" Hidden="true" />
+      <Method Name="getIp" Hidden="true" />
+      <Method Name="getReadFd" Hidden="true" />
+      <Method Name="getWriteFd" Hidden="true" />
+      <Method Name="mustBeClosed" Hidden="true" />
+      <Method Name="prepareClose" Hidden="true" />
+      <Method Name="prepareMsg" Hidden="true" />
+      <Method Name="receiveMsg" Hidden="true" />
+      <Method Name="send" Hidden="true" />
+      <Method Name="somethingToWrite" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gEAAEAAkAAAQQAABAABAAAAAACgAgAQIAAAAAAAICAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\abstraction\WindowsTCPRemoteClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsTCPServer">
+    <Position X="25.25" Y="14.75" Width="2" />
+    <Members>
+      <Method Name="acceptClient" Hidden="true" />
+      <Method Name="getReadFd" Hidden="true" />
+      <Method Name="start" Hidden="true" />
+      <Method Name="stop" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAgAAQAAAAAACAgAAAAAAACAAAIAAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\abstraction\WindowsTCPServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsTCPSocket" Collapsed="true">
+    <Position X="1.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCGAgAAAACgIAiACAAEAAAAAAAAQEAIgAIAAEAAIAIA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\abstraction\WindowsTCPSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Debug">
+    <Position X="41.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAFAAAAAAIAgAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\users\sylvain\source\repos\babel-2017-guedj_m\src\common\debug.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSerializer">
+    <Position X="43.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAQAAAAAIAAAAAQAAAAAAAAABAQAAAA=</HashCode>
+      <FileName>e:\users\sylvain\source\repos\babel-2017-guedj_m\src\common\fileserializer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Serializer">
+    <Position X="20.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAECAAAAAAIAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\common\Serializer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StandardInput">
+    <Position X="30" Y="12" Width="1.5" />
+    <Members>
+      <Method Name="getReadFd" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="IObservable" FixedToPoint="true">
+      <Path>
+        <Point X="25" Y="11.296" />
+        <Point X="25" Y="11.625" />
+        <Point X="30.562" Y="11.625" />
+        <Point X="30.562" Y="12" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAACAAAgAAAAAgAAAAAAA=</HashCode>
+      <FileName>e:\users\sylvain\source\repos\babel-2017-guedj_m\src\common\standardinput.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BabelServer">
+    <Position X="36" Y="3" Width="2.5" />
+    <Members>
+      <Field Name="_soughtStranger" Hidden="true" />
+      <Field Name="_soughtUser" Hidden="true" />
+      <Field Name="_strangerFound" Hidden="true" />
+      <Field Name="_userFound" Hidden="true" />
+      <Method Name="disconnectUser" Hidden="true" />
+      <Method Name="getAuthentified" Hidden="true" />
+      <Method Name="getStranger" Hidden="true" />
+      <Method Name="isAuthentified" Hidden="true" />
+      <Method Name="isStranger" Hidden="true" />
+      <Method Name="kickIfRequired" Hidden="true" />
+      <Method Name="kickStranger" Hidden="true" />
+      <Method Name="kickStrangers" Hidden="true" />
+      <Method Name="kickUser" Hidden="true" />
+      <Method Name="loop" Hidden="true" />
+      <Method Name="notifyFriends" Hidden="true" />
+      <Method Name="process" Hidden="true" />
+      <Method Name="processAddToCall" Hidden="true" />
+      <Method Name="processAnswerCall" Hidden="true" />
+      <Method Name="processFriendRequest" Hidden="true" />
+      <Method Name="processFriendValidation" Hidden="true" />
+      <Method Name="processHostReady" Hidden="true" />
+      <Method Name="processMessage" Hidden="true" />
+      <Method Name="processSignIn" Hidden="true" />
+      <Method Name="processSignUp" Hidden="true" />
+      <Method Name="processStrangerMessage" Hidden="true" />
+      <Method Name="processUserMessage" Hidden="true" />
+      <Method Name="setTimeout" Hidden="true" />
+      <Method Name="signInUser" Hidden="true" />
+      <Method Name="updateData" Hidden="true" />
+      <Method Name="updateTimeout" Hidden="true" />
+      <Method Name="validPassword" Hidden="true" />
+      <Method Name="validUsername" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CAZEABAAAAIAjBghQAMRAAIGGEAAEITABgwAQMAQAQE=</HashCode>
+      <FileName>BabelServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Database">
+    <Position X="39.25" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>KEAAACAAClAAAAAAAAAIIAAAACAAAYAAQAAAMhAAAAA=</HashCode>
+      <FileName>database.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserData">
+    <Position X="42" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>YAQAIAABABAAAAAAAAAIYAAAAAQAAohAAEgEAARJAYA=</HashCode>
+      <FileName>userdata.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TCPPacketHeader">
+    <Position X="42.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAABABA=</HashCode>
+      <FileName>e:\users\sylvain\source\repos\babel-2017-guedj_m\src\common\tcppacketheader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Generic::ActualSerializer&lt;T&gt;">
+    <Position X="18.5" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\common\Serializer.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Generic::ActualSerializer&lt;std::string&gt;">
+    <Position X="22" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\common\Serializer.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Generic::ActualSerializer&lt;std::list&lt;T&gt;&gt;">
+    <Position X="16" Y="6.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\common\Serializer.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Generic::ActualSerializer&lt;std::pair&lt;U, V&gt;&gt;">
+    <Position X="19.75" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\common\Serializer.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="eCommandId">
+    <Position X="2.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgADAAAABCAAIAAAAACASAAAACECYBAABEgAAAAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\common\eCommandId.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eErrorCode">
+    <Position X="5.25" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAGAAQAiAAAQAAAABABAAAgAAAAAQAAAEIAAAAAA=</HashCode>
+      <FileName>e:\users\sylvain\source\repos\babel-2017-guedj_m\src\common\eerrorcode.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eFriendRequestType">
+    <Position X="8" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\common\eFriendRequestType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eFriendStatus">
+    <Position X="8" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAEgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\Users\Sylvain\Source\Repos\babel-2017-guedj_m\src\common\eFriendStatus.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
